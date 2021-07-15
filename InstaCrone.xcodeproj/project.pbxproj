@@ -11,6 +11,10 @@
 		7BAF020C269D9C3600432C22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF020B269D9C3600432C22 /* ContentView.swift */; };
 		7BAF020E269D9C3900432C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAF020D269D9C3900432C22 /* Assets.xcassets */; };
 		7BAF0211269D9C3900432C22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAF0210269D9C3900432C22 /* Preview Assets.xcassets */; };
+		7BAF0219269DA06800432C22 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF0218269DA06800432C22 /* NavView.swift */; };
+		7BAF021B26A022B800432C22 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF021A26A022B800432C22 /* Person.swift */; };
+		7BAF021D26A02E2900432C22 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF021C26A02E2900432C22 /* StoryView.swift */; };
+		7BAF021F26A03E4700432C22 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF021E26A03E4700432C22 /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		7BAF020D269D9C3900432C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BAF0210269D9C3900432C22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BAF0212269D9C3900432C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAF0218269DA06800432C22 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		7BAF021A26A022B800432C22 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		7BAF021C26A02E2900432C22 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		7BAF021E26A03E4700432C22 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				7BAF0209269D9C3600432C22 /* InstaCroneApp.swift */,
 				7BAF020B269D9C3600432C22 /* ContentView.swift */,
+				7BAF021E26A03E4700432C22 /* PostView.swift */,
+				7BAF021C26A02E2900432C22 /* StoryView.swift */,
+				7BAF021A26A022B800432C22 /* Person.swift */,
+				7BAF0218269DA06800432C22 /* NavView.swift */,
 				7BAF020D269D9C3900432C22 /* Assets.xcassets */,
 				7BAF0212269D9C3900432C22 /* Info.plist */,
 				7BAF020F269D9C3900432C22 /* Preview Content */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BAF021D26A02E2900432C22 /* StoryView.swift in Sources */,
+				7BAF0219269DA06800432C22 /* NavView.swift in Sources */,
 				7BAF020C269D9C3600432C22 /* ContentView.swift in Sources */,
+				7BAF021B26A022B800432C22 /* Person.swift in Sources */,
+				7BAF021F26A03E4700432C22 /* PostView.swift in Sources */,
 				7BAF020A269D9C3600432C22 /* InstaCroneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
